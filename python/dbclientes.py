@@ -87,7 +87,7 @@ class ClienteDB():
             print("dados inseridos com sucesso")
 
         except sqlite3.IntegrityError:
-            print("Aviso: Email Invalido.")
+            print("Aviso: Endereco Invalido.")
             return False
 
     
