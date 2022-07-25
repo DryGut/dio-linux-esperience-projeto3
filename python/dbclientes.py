@@ -51,7 +51,7 @@ class ClienteDB():
   def fecha_conexao(self):
     self.db.close_db()
 
-  def criar_tabela(self, schema_name='/python/tableschema1.sql'):
+  def criar_tabela(self, schema_name='tableschema1.sql'):
 
     print("Criando a Tabela %s... " % self.tb_name)
 
